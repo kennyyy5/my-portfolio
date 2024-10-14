@@ -37,8 +37,8 @@ export function Projects() {
   ];
 
   return(
-  <div > 
-    <h1 className="display-5 fw-bold text-body-emphasis view text-center my-2">Experience</h1>
+  <div id="projects"> 
+    <h1 className="display-5 fw-bold text-body-emphasis view text-center my-2">Projects</h1>
   <FocusCards cards={cards} />
   </div>
   )
