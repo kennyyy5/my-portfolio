@@ -1,4 +1,3 @@
-import React from 'react'
 
 import About from "./components/About"
 import { HeroScrollDemo } from './components/LandingScroll'
@@ -6,7 +5,7 @@ import BottomNavbar from './components/BottomNavbar'
 import Experiences from './components/Experiences'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { Projects } from './components/Projects'
+import { Projects2 } from './components/Projects2'
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
   <HeroScrollDemo/>
    <About/>
     <Experiences/>  
-    <Projects/>
+    <Projects2/>
     <Contact/>
     <Footer/>
     </>
