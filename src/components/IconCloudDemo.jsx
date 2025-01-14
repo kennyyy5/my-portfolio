@@ -18,7 +18,7 @@ const slugs = [
   "gitlab",
   "visualstudiocode",
   "figma",
-  "python","numpy","matplotlib","scikitlearn","bootstrap","tailwindcss","sqlite","mongodb","mongoose","r","c"
+  "bootstrap","tailwindcss","sqlite","mongodb","mongoose","c","flutter","dart","androidstudio"
 ];
 
 export function IconCloudDemo() {

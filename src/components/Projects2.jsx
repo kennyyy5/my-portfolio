@@ -27,8 +27,8 @@ export function Projects2() {
         <use xlinkHref="#cpu-fill" />
       </svg>
       <div>
-       <a href="https://github.com/kennyyy5/salita-co"> <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">SALITA.CO</h3> </a>
-        <p>Freelance website for a brand</p>
+       <a href="https://github.com/kennyyy5/music-player-flutter"> <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Music player app</h3> </a>
+        <p>music player app built with flutter</p>
       </div>
     </div>
     <div className="col d-flex align-items-start">
@@ -40,8 +40,8 @@ export function Projects2() {
         <use xlinkHref="#calendar3" />
       </svg>
       <div>
-      <a href="https://github.com/kennyyy5/tubedigest-ai"><h3 className="fw-bold mb-0 fs-4 text-body-emphasis">TubeDigest AI</h3> </a>  
-        <p>web app allows users to summarise and interact with youtube videos.</p>
+      <a href="https://github.com/kennyyy5/ecommerce-app-flutter"><h3 className="fw-bold mb-0 fs-4 text-body-emphasis">eCommerce App</h3> </a>  
+        <p>eCommerce App built with flutter</p>
       </div>
     </div>
     <div className="col d-flex align-items-start">
@@ -66,8 +66,8 @@ export function Projects2() {
         <use xlinkHref="#speedometer2" />
       </svg>
       <div>
-       <a href="https://github.com/kennyyy5/lyric-findr"> <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Lyric Findr</h3> </a>
-        <p>returns a song name given a lyric.</p>
+       <a href="https://github.com/kennyyy5/social-media-app-flutter"> <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Social Media App</h3> </a>
+        <p>social media app built with flutter.</p>
       </div>
     </div>
     <div className="col d-flex align-items-start">
