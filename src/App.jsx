@@ -1,11 +1,9 @@
 
-import About from "./components/About"
-import { HeroScrollDemo } from './components/LandingScroll'
-import BottomNavbar from './components/BottomNavbar'
 import Experiences from './components/Experiences'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { Projects2 } from './components/Projects2'
+import { Projects } from './components/Projects'
+import Header from "./components/Header";
 
 
 function App() {
@@ -13,11 +11,9 @@ function App() {
 
   return (
     <>
-     <BottomNavbar/>
-  <HeroScrollDemo/>
-   <About/>
+   <Header/>
     <Experiences/>  
-    <Projects2/>
+    <Projects/>
     <Contact/>
     <Footer/>
     </>

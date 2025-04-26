@@ -5,15 +5,16 @@ import React from 'react'
 let access_key ;
 function Contact() {
   return (
-    <div className="container col-xl-10 col-xxl-8 px-4 py-5 view" id="contact">
+    <div className='bg-white'>
+    <div className="container col-xl-10 col-xxl-8 px-4 py-5 view bg-white" id="contact">
   <div className="row align-items-center g-lg-5 py-5">
     <div className="col-lg-7 text-center text-lg-start">
-      <h1 className="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-        Contact
+      <h1 className="  text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
+        CONTACT
       </h1>
       <p className="col-lg-10 fs-4">
         Whether you have a question, want to start a project or simply want to
-        connect, feel free to send me a message in the contact form
+        connect, feel free to send me a message in the contact form.
       </p>
     </div>
     <div className="col-md-10 mx-auto col-lg-5">
@@ -26,7 +27,7 @@ function Contact() {
 
         <input type="hidden" name="redirect" defaultValue="thanks.html" />
         <fieldset>
-          <label htmlFor="first-name">
+          <label htmlFor="first-name"  className="text-2xl sm:text-2xl md:text-2xl font-medium text-gray-700 dark:text-gray-300">
             Enter Your First Name*: <br />
             <input
               id="first-name"
@@ -36,7 +37,7 @@ function Contact() {
               required=""
             />
           </label>
-          <label htmlFor="last-name">
+          <label htmlFor="last-name"  className="text-2xl sm:text-2xl md:text-2xl font-medium text-gray-700 dark:text-gray-300">
             Enter Your Last Name: <br />
             <input
               id="last-name"
@@ -45,7 +46,7 @@ function Contact() {
               className="form-control"
             />
           </label>
-          <label htmlFor="email">
+          <label htmlFor="email" className="text-2xl sm:text-2xl md:text-2xl font-medium text-gray-700 dark:text-gray-300">
             Enter Your Email*: <br />
             <input
               id="email"
@@ -57,7 +58,7 @@ function Contact() {
           </label>
         </fieldset>
         <fieldset border={0}>
-          <label htmlFor="msg">
+          <label htmlFor="msg" className="text-2xl sm:text-2xl md:text-2xl font-medium text-gray-700 dark:text-gray-300">
             Message*: <br />
             <textarea
               id="msg"
@@ -75,12 +76,14 @@ function Contact() {
           type="submit"
           defaultValue="SUBMIT"
           id="submit"
-          className="btn btn-success"
+          className="btn btn-success text-2xl sm:text-2xl md:text-2xl font-medium"
+           
         />
       </form>
     </div>
   </div>
 </div>
+    </div>
 
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
+    <div className='bg-white' id='footer'>
     <div className="container">
   <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div className="col-md-4 d-flex align-items-center">
@@ -14,7 +15,7 @@ function Footer() {
         </svg>
       </a>
       <span className="mb-3 mb-md-0 text-body-secondary">
-        © 2024 @kennyisadeveloper
+        © 2025 @kennyisadeveloper
       </span>
     </div>
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -93,7 +94,7 @@ function Footer() {
     </ul>
   </footer>
 </div>
-
+</div>
   )
 }
 

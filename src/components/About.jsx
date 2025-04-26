@@ -1,35 +1,28 @@
-import React from 'react'
-import { IconCloudDemo } from "./IconCloudDemo";
 
-export default function About() {
+
+export function About() {
   return (
-    <>
-      <div className="container col-xxl-8 px-4 py-1 view" id='about'>
-  <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div className="col-10 col-sm-8 col-lg-6">
-      <IconCloudDemo/>
-    </div>
-    <div className="col-lg-6 ">
-      <h1 className="display-5 fw-bold text-body-emphasis">
-       About
-      </h1>
-      <p className="lead about-li">
-        <ul>
-          
-           <li>Computer Science major + Maths minor Student at the University of Guelph </li>
-           <li>Relevant coursework: Data Structures, Linear Algebra, Calculus, Intermediate Programming, Structure and Application of Microcomputers, Object-Oriented Programming, Statistics</li>
-           <li>Summer Software Engineering fellow at Headstarter AI </li>
-           <li>Current obsessions: reading, creating new projects, Abbott Elementary.</li>
-            <li>Looking for Front-end/Back-end/Full-stack SEng/Developer roles</li>
-          </ul>
+    <div className="text-2xl sm:text-2xl md:text-2xl font-medium text-gray-700 dark:text-gray-300">
+     <p >
+        I’m a 2nd year Computer Science student at the University of Guelph 
+        set to graduate spring 2028 with a strong interest in software and web development.</p>
+        <p>
+         I have experience in languages like C, Java, Python, JavaScript, and SQL/NoSQL and have built
+          projects such as a real-time chat app and a chatbot using APIs and RAG technology. 
+          </p>
+          <p>
+          I've also gained experience in mobile development by building a weather app using React
+           Native and a social media app, habit tracker, and music player using Flutter. 
+           As a detail-oriented person, I’m always eager to learn new technologies. 
+           </p>
+           <p>
+           I’m also a peer helper, which has developed my leadership, communication,
+            and teamwork skills. With a focus on adaptability and problem-solving, 
+            I’m confident my collaborative work ethic and skills would be an asset to your team.
       </p>
-      <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-       
-      </div>
-    </div>
-  </div>
-</div>
 
-    </>
-  )
+      </div>
+  );
 }
+
+// add data analysis  experience and projects
