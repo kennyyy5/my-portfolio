@@ -8,7 +8,8 @@ export function About() {
         set to graduate spring 2028 with a strong interest in software and web development.</p>
         <p>
          I have experience in languages like C, Java, Python, JavaScript, and SQL/NoSQL and have built
-          projects such as a real-time chat app and a chatbot using APIs and RAG technology. 
+          projects such as a real-time chat app using MERN an NoSQL and a chatbot using APIs and RAG technology. 
+          I've also analysed and predicted data using Python librabries e.g. NumPy, Panadas and TensorFlow.
           </p>
           <p>
           I've also gained experience in mobile development by building a weather app using React
