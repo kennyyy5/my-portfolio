@@ -4,6 +4,22 @@ import { Timeline } from "@/components/ui/timeline";
 export default function Experiences() {
   const data = [
     {
+      title: "Winter 2025",
+      content: (
+        <div>
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">Enterprise Architecture Co-op, CIHI</h2>
+        <br/><br/>
+        <p>
+          <ul>
+            <li>Visualize and analyze the current status of IT resources </li>
+            <li>Monitor PHI access and logging capabilities and ensure that CIHI technologies adheres to privacy legislation.</li> 
+            <li>Assist with operational activities related to CIHI’s enterprise architecture.</li>      
+          </ul>
+        </p>
+      </div>
+      ),
+    },
+    {
       title: "Summer 2025",
       content: (
         <div>
@@ -11,9 +27,8 @@ export default function Experiences() {
         <br/><br/>
         <p>
           <ul>
-            <li>Developed AI/GenAI applications in an agile team with product managers, designers, and data scientists.</li>
-            <li>Integrated ML models and APIs (e.g., ChatGPT) into full-stack code and optimized data pipelines.</li> 
-            <li>Explored AI/ML frameworks, documented research, and reported progress weekly during weekly mentor sessions.</li>  
+            <li>Developed AI applications in an agile team with product managers, designers, and data scientists.</li>
+            <li>Implemented the frontend in Flutter for cross-platform support</li> 
           </ul>
         </p>
       </div>
@@ -27,9 +42,8 @@ export default function Experiences() {
         <br/><br/>
         <p>
           <ul>
-            <li>Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users </li>
-         <li> Developed projects from design to deployment leading 4+ engineering fellows using MVC design patterns </li> 
-       <li>   Coached by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns  </li>  
+            <li>Worked in a 4-person agile team, applying MVC design patterns to streamline development and enhance code maintainability</li>
+         <li> Designed, developed, and deployed 5+ AI applications and APIs with 98% accuracy, using Next.js, OpenAI, Stripe API, and Pinecone.</li>  
           </ul>
         </p>
       </div>

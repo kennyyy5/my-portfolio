@@ -9,14 +9,16 @@ export default function Header() {
   return (
     <section className="relative min-h-screen w-full bg-white dark:bg-black overflow-hidden flex items-center justify-center">
       {/* 1) Grid & dot background */}
-      <div
+
+ <div
         className={cn(
           "absolute inset-0 z-0",
           "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
+          "[background-image:linear-gradient(to_right,#16a34a_1px,transparent_1px),linear-gradient(to_bottom,#16a34a_1px,transparent_1px),linear-gradient(to_top,#16a34a_1px,transparent_1px)]",
+          "dark:[background-image:linear-gradient(to_right,#15803d_1px,transparent_1px),linear-gradient(to_bottom,#15803d_1px,transparent_1px),linear-gradient(to_top,#15803d_1px,transparent_1px)]"
         )}
       />
+
 
       {/* 2) Radial fade mask */}
       <div className="absolute inset-0 z-0 pointer-events-none bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
@@ -38,11 +40,12 @@ export default function Header() {
 
             <ContainerTextFlip
               words={[
-                "Computer Science student",
-                "Software Engineer",
-                "Web Developer",
-                "App Developer",
-                "Data Analyst",
+                "3rd year Computer Science student",
+                "Interested in Software Engineering",
+                "Interested in Web Development",
+                "Interested in IT/IT Support",
+                 "Interested in Cybersecurity",
+                "Interested in Data Analysis",
               ]}
               className="text-2xl sm:text-3xl md:text-4xl font-medium text-gray-700 dark:text-gray-300"
             />
@@ -52,7 +55,7 @@ export default function Header() {
 
         {/* 4) About section below hero */}
         <div className="mt-16">
-          <About />
+      
         </div>
       </div>
     </section>
