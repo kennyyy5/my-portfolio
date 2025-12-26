@@ -210,7 +210,7 @@ const KennyPortfolio = () => {
             {/* Photo with code frame */}
             <div className="bg-blue p-3 shadow-lg mb-4 transform rotate-2 relative font-mono">
               <div className="text-green-400 text-xs mb-1">// Profile Image</div>
-              <img className="w-full bg-gray-800 flex items-center justify-center text-7xl border-2 border-green-500" src='public/img-of-me.png'/>
+              <img className="w-full bg-gray-800 flex items-center justify-center text-7xl border-2 border-green-500" src='img-of-me.png'/>
                 
            
               <div className="text-green-400 text-xs mt-1">return developer.photo;</div>
