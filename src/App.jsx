@@ -57,7 +57,9 @@ const KennyPortfolio = () => {
             <p className="text-gray-500 text-sm">return &#123;</p>
             <div className="ml-6">
               <p className="text-blue-600">"name"<span className="text-gray-500">:</span> <span className="text-green-600">"KEHINDE (KENNY) ADENUGA"</span>,</p>
-              <p className="text-blue-600">"role"<span className="text-gray-500">:</span> <span className="text-green-600">"Interested in Software Engineering, ML/AI, Data Science & IT Support"</span>,</p>
+              <p className="text-blue-600">"current-role"<span className="text-gray-500">:</span> <span className="text-green-600">"W26 co-op @ CIHI"</span>,</p>
+              <p className="text-blue-600">"interests"<span className="text-gray-500">:</span> <span className="text-green-600">"Software Engineering, ML/AI, Data Science & IT Support"</span>,</p>
+              
               <p className="text-blue-600">"education"<span className="text-gray-500">:</span> <span className="text-green-600">"Computer Science Student @ UoGuelph"</span></p>
             </div>
             <p className="text-gray-500">&#125;</p>
