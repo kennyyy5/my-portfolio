@@ -34,21 +34,22 @@ const KennyPortfolio = () => {
               # README.md
             </div>
              <h1 className="text-7xl font-black tracking-tight">
-              <span className="inline-block px-2 py-1 bg-green-700 text-white transform -rotate-2">K</span>
-              <span className="inline-block px-2 py-1 bg-blue-600 text-white transform rotate-1">E</span>
-              <span className="inline-block px-2 py-1 bg-green-400 text-white transform -rotate-1">H</span>
-              <span className="inline-block px-2 py-1 bg-blue-500 text-white transform rotate-2">I</span>
-              <span className="inline-block px-2 py-1 bg-green-500 text-white transform -rotate-2">N</span>
-              <span className="inline-block px-2 py-1 bg-blue-500 text-white transform rotate-1">D</span>
-              <span className="inline-block px-2 py-1 bg-green-600 text-white transform -rotate-1">E</span>
-              <span className="inline-block px-1 py-1  text-white transform rotate-2"> </span>
+            <span style={{ "--r": "-2deg" }} className="inline-block px-2 py-1 bg-green-700 text-white animate-[float_3s_ease-in-out_infinite]">K</span>
+<span style={{ "--r": "1deg" }}  className="inline-block px-2 py-1 bg-blue-600 text-white animate-[float_3.2s_ease-in-out_infinite]">E</span>
+<span style={{ "--r": "-1deg" }} className="inline-block px-2 py-1 bg-green-400 text-white animate-[float_2.8s_ease-in-out_infinite]">H</span>
+<span style={{ "--r": "2deg" }}  className="inline-block px-2 py-1 bg-blue-500 text-white animate-[float_3.1s_ease-in-out_infinite]">I</span>
+<span style={{ "--r": "-2deg" }} className="inline-block px-2 py-1 bg-green-500 text-white animate-[float_2.9s_ease-in-out_infinite]">N</span>
+<span style={{ "--r": "1deg" }}  className="inline-block px-2 py-1 bg-blue-500 text-white animate-[float_3.3s_ease-in-out_infinite]">D</span>
+<span style={{ "--r": "-1deg" }} className="inline-block px-2 py-1 bg-green-600 text-white animate-[float_3s_ease-in-out_infinite]">E</span>
+
+              {/* <span className="inline-block px-1 py-1  text-white transform rotate-2"> </span>
               <span className="inline-block px-2 py-1 bg-green-700 text-white transform -rotate-2">A</span>
               <span className="inline-block px-2 py-1 bg-blue-600 text-white transform -rotate-1">D</span>
               <span className="inline-block px-2 py-1 bg-green-400 text-white transform -rotate-2">E</span>
               <span className="inline-block px-2 py-1 bg-blue-500 text-white transform -rotate-1">N</span>
               <span className="inline-block px-2 py-1 bg-green-500 text-white transform -rotate-2">U</span>
               <span className="inline-block px-2 py-1 bg-blue-500 text-white transform -rotate-1">G</span>
-              <span className="inline-block px-2 py-1 bg-green-600 text-white transform -rotate-2">A</span>
+              <span className="inline-block px-2 py-1 bg-green-600 text-white transform -rotate-2">A</span> */}
             </h1>
           </div>
 
