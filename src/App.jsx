@@ -232,16 +232,7 @@ const KennyPortfolio = () => {
               <p >kenny@compsci:~$</p>
             </div>
 
-            {/* Code comment sticky note */}
-            <div className="bg-yellow-200 p-4 shadow-md transform rotate-1 relative font-mono text-xs">
-              <div className="text-gray-500">/* TODO:</div>
-              <div className="text-gray-700 my-2">
-               Reach out to me!<br/>
-                kennyyy5 on github<br/>
-                /in/kennny-adenuga on linkedin
-              </div>
-              <div className="text-gray-500">*/</div>
-            </div>
+           
 
             {/* Tech stack badges */}
             <div className="mt-6 space-y-2">
@@ -269,6 +260,17 @@ const KennyPortfolio = () => {
             </div>
           </div>
         </div>
+
+         {/* Code comment sticky note */}
+            <div className="bg-yellow-200 p-4 shadow-md transform rotate-1 relative font-mono text-xs">
+              <div className="text-gray-500">/* TODO:</div>
+              <div className="text-gray-700 my-2">
+               Reach out to me!<br/>
+                kennyyy5 on github<br/>
+                /in/kennny-adenuga on linkedin
+              </div>
+              <div className="text-gray-500">*/</div>
+            </div>
 
             {/* Contact & Info - formatted as object properties
             <div className="mb-6 font-mono text-sm bg-white p-4 border-2 border-gray-300 rounded">
