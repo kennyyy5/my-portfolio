@@ -113,7 +113,7 @@ const KennyPortfolio = () => {
                     <p><span className="text-blue-600">title:</span> <span className="text-green-600">"Enterprise Architecture Co-op"</span>,</p>
                     <p><span className="text-blue-600">company:</span> <span className="text-green-600">"CIHI"</span>,</p>
                     <p><span className="text-blue-600">role:</span> [</p>
-                    <div className="ml-4 text-xs text-gray-700 space-y-1">
+                    <div className="ml-4 text-base text-gray-700 space-y-1">
                       <p>"Visualize and analyze IT resources",</p>
                       <p>"Monitor PHI access and logging capabilities",</p>
                       <p>"Enterprise architecture operations"</p>
@@ -130,7 +130,7 @@ const KennyPortfolio = () => {
                     <p><span className="text-blue-600">title:</span> <span className="text-green-600">"Software Engineering Intern - AI/ML"</span>,</p>
                     <p><span className="text-blue-600">company:</span> <span className="text-green-600">"PM Accelerator"</span>,</p>
                     <p><span className="text-blue-600">role:</span> [</p>
-                    <div className="ml-4 text-xs text-gray-700 space-y-1">
+                    <div className="ml-4 text-base text-gray-700 space-y-1">
                       <p>"Developed AI apps in agile team",</p>
                       <p>"Implemented Flutter frontend for cross-platform"</p>
                     </div>
@@ -146,7 +146,7 @@ const KennyPortfolio = () => {
                     <p><span className="text-blue-600">title:</span> <span className="text-green-600">"Software Engineering Fellow"</span>,</p>
                     <p><span className="text-blue-600">company:</span> <span className="text-green-600">"Headstarter AI"</span>,</p>
                     <p><span className="text-blue-600">role:</span> [</p>
-                    <div className="ml-4 text-xs text-gray-700 space-y-1">
+                    <div className="ml-4 text-base text-gray-700 space-y-1">
                       <p>"worked in 4-person agile team with MVC patterns",</p>
                       <p>"Deployed 5+ AI apps with 98% accuracy"</p>
                     </div>
@@ -162,7 +162,7 @@ const KennyPortfolio = () => {
                     <p><span className="text-blue-600">title:</span> <span className="text-green-600">"Web Development Team Member"</span>,</p>
                     <p><span className="text-blue-600">company:</span> <span className="text-green-600">"Riipen"</span>,</p>
                     <p><span className="text-blue-600">role:</span> [</p>
-                    <div className="ml-4 text-xs text-gray-700 space-y-1">
+                    <div className="ml-4 text-base text-gray-700 space-y-1">
                       <p>"50% increase in customer reach",</p>
                       <p>"60% UX/UI enhancement",</p>
                       <p>"30% increase in online sales"</p>
@@ -195,7 +195,7 @@ const KennyPortfolio = () => {
               
                    
                 ].map((project, i) => (
-                  <div key={i} className="bg-white text-green-400 p-3 rounded font-mono text-xs shadow-md">
+                  <div key={i} className="bg-white text-green-400 p-3 rounded font-mono text-base shadow-md">
                     <div className="text-gray-500 mb-1">&#123;</div>
                     <LinkPreview url={project.url}  >
                       <p><span className="text-green-400">name:</span> "{project.name}",</p>
@@ -213,11 +213,11 @@ const KennyPortfolio = () => {
           <div className="col-span-12 md:col-span-4">
             {/* Photo with code frame */}
             <div className="bg-blue p-3 shadow-lg mb-4 transform rotate-2 relative font-mono">
-              <div className="text-green-400 text-xs mb-1">// Profile Image</div>
+              <div className="text-green-400 text-base mb-1">// Profile Image</div>
               <img className="w-full bg-gray-800 flex items-center justify-center text-7xl border-2 border-green-500" src='img-of-me.png'/>
                 
            
-              <div className="text-green-400 text-xs mt-1">return developer.photo;</div>
+              <div className="text-green-400 text-base mt-1">return developer.photo;</div>
               
               {/* Paper clip */}
               {/* <div className="absolute -top-3 -right-3">
@@ -237,24 +237,24 @@ const KennyPortfolio = () => {
 
             {/* Tech stack badges */}
             <div className="mt-6 space-y-2">
-              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<JavaScript>'} 
               </div>
-              <div className="bg-blue-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+              <div className="bg-blue-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<Python>'}
               </div>
-              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<Java>'}
               </div>
             
             
-               <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+               <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<AI/ML>'}
               </div>
-                <div className="bg-blue-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+                <div className="bg-blue-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<SQL/NoSQL>'}
               </div>
-              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-xs font-bold shadow-md">
+              <div className="bg-green-600 text-white px-3 py-2 rounded font-mono text-base font-bold shadow-md">
                 {'<Excel/Tableau/PowerBI>'}
               </div>
              
@@ -263,7 +263,7 @@ const KennyPortfolio = () => {
         </div>
 
          {/* Code comment sticky note */}
-            <div className="bg-yellow-200 p-4 shadow-md transform rotate-1 relative font-mono text-xs">
+            <div className="bg-yellow-200 p-4 shadow-md transform rotate-1 relative font-mono text-base">
               <div className="text-gray-500">/* TODO:</div>
               <div className="text-gray-700 my-2">
                Reach out to me!<br/>
