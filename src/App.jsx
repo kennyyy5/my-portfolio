@@ -109,7 +109,7 @@ const KennyPortfolio = () => {
                 <div className="bg-white border-l-4 border-green-600 p-4 shadow-md font-mono text-sm">
                   <div className="text-gray-500 mb-2">&#123;</div>
                   <div className="ml-4">
-                    <p><span className="text-blue-600">period:</span> <span className="text-green-600">"Winter 2025"</span>,</p>
+                    <p><span className="text-blue-600">period:</span> <span className="text-green-600">"Winter 2026"</span>,</p>
                     <p><span className="text-blue-600">title:</span> <span className="text-green-600">"Enterprise Architecture Co-op"</span>,</p>
                     <p><span className="text-blue-600">company:</span> <span className="text-green-600">"CIHI"</span>,</p>
                     <p><span className="text-blue-600">role:</span> [</p>
