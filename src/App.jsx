@@ -189,7 +189,7 @@ const KennyPortfolio = () => {
                   { name: "AI Mock Interview Agent", tech: "NLP/Gemini API" , url:"https://github.com/kennyyy5/ai-interview-agent"},
                   { name: "Bike Buyer Dashboard", tech: "Excel/Analytics" , url:"https://github.com/kennyyy5/Bike-Buyer-Dashboard-Excel-"},
                   { name: "Amazon Sentiment Analysis", tech: "NLP/ML" , url:"https://github.com/kennyyy5/amazon-echo-reviews-sentiment-analysis"},
-                  { name: "Customer Churn Prediction:", tech: "Streamlit/ML" , url:"https://github.com/kennyyy5/customer-churn"},
+                  { name: "Customer Churn Prediction", tech: "Streamlit/ML" , url:"https://github.com/kennyyy5/customer-churn"},
             
                   { name: "Book Recommendation App", tech: "Streamlit/ML" , url:"https://github.com/kennyyy5/book-recommendation-app"},
               
